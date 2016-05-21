@@ -1,0 +1,25 @@
+package arrayreview;
+
+public class ReviewOfArrays {
+	static int[] a1; //declare array
+	static final int N = 10;
+	static final int M = 5;
+	
+	public static void main(String[] args) {
+		a1 = new int[N]; //create array
+		//initialize array
+		for(int i=0; i<N; i++)
+			a1[i] = 2 * i;
+	}
+	
+	public void printArray() {
+		if(a1 == null)
+			System.out.println("array is null!");
+		else if(a1.length == 0)
+			System.out.println("array is not initialized!");
+		else {
+			//
+		}
+	}
+
+}

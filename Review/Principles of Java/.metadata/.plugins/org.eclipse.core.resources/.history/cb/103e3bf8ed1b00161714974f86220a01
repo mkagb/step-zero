@@ -1,0 +1,12 @@
+package arrayreview;
+
+public class ReviewOfArrays {
+	static int[] a1;
+	static final int N = 10;
+	static final int M = 5;
+	
+	public static void main(String[] args) {
+		a1 = new int[N];
+	}
+
+}

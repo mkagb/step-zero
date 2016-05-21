@@ -1,0 +1,17 @@
+package arrayreview;
+
+public class ReviewOfArrays {
+	int[] a1;
+	
+	public static void main(String[] args) {
+		int N = 10;
+		int M = 5;
+		
+
+	}
+	
+	public static void initializeArray() {
+		//
+	}
+
+}
